@@ -1,0 +1,205 @@
+// main.scss
+@use 'variables';
+
+html, body {
+  font-family: variables.$font-main;
+  margin: 0;
+  padding: 0;
+  background-color: variables.$color-background;
+  color: variables.$color-text;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: variables.$max-width;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+// Header
+.header {
+  background-color: variables.$color-primary;
+  color: #fff;
+  padding: 20px 0;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: variables.$max-width;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-left: 25px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          color: variables.$color-accent;
+        }
+      }
+    }
+  }
+}
+
+// Hero
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+}
+
+// Pickup
+.pickup {
+  background-color: #eef;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0;
+    list-style: none;
+
+    li {
+      min-width: 300px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+
+      .text {
+        padding: 10px;
+
+        h3 {
+          font-size: 1.2em;
+          margin: 0 0 10px;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}
+
+// News
+.news {
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+
+      span {
+        color: #999;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+// Single Page
+.single {
+  .content {
+    line-height: 1.8;
+
+    h2 {
+      font-size: 1.8em;
+      margin-top: 40px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Sidebar
+.sidebar {
+  .widget {
+    margin-bottom: 30px;
+
+    h3 {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// Responsive
+@media screen and (max-width: 768px) {
+  .header .inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .pickup ul {
+    flex-direction: column;
+  }
+}

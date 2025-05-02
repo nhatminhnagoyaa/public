@@ -1,0 +1,26 @@
+html, body {
+    font-family:var(--font-main);
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-background);
+    color:var(--color-text);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    max-width:var(--max-width);
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,138 @@
+/* Nội dung từ artifact trước */
+.news-tops-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-tops-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-tops-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.news-thumbnail {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.news-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.news-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.news-excerpt {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.news-date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* CSS bổ sung cho header, footer, front-page */
+.site-header {
+    background: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-branding h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.site-description {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #0073aa;
+}
+
+.site-footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-nav li {
+    margin-left: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.front-page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-section {
+    margin-bottom: 40px;
+}
+
+.news-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}

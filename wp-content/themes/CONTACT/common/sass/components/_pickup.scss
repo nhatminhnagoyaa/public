@@ -1,0 +1,38 @@
+// Pickup
+.pickup {
+  background-color: #eef;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0;
+    list-style: none;
+
+    li {
+      min-width: 300px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+
+      .text {
+        padding: 10px;
+
+        h3 {
+          font-size: 1.2em;
+          margin: 0 0 10px;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}

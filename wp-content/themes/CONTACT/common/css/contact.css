@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* --- お問い合わせフォーム --- */
+/* デザインカスタマイズ */
+div.wpcf7 {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 0;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  /* エラー個所をわかりやすく表示 */
+  /* 必須赤色表示 */
+  /* 任意緑色表示 */
+}
+div.wpcf7 p {
+  padding: 20px 20px 0;
+  margin: 0;
+  font-size: 16px;
+}
+div.wpcf7 input, div.wpcf7 textarea {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+}
+div.wpcf7 textarea {
+  width: 97.5%;
+  height: 300px;
+}
+div.wpcf7 input.wpcf7-submit {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+  background: #333;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  inset: 0 32px 0 -12px #808080;
+  border: 1px solid #666;
+}
+div.wpcf7 input.wpcf7-submit:hover {
+  background: #006080;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  inset: 0 32px 0 -12px #007ea8;
+  border: 1px solid #006080;
+}
+div.wpcf7 input.wpcf7-submit:active {
+  box-shadow: none;
+  bottom: -2px;
+  position: relative;
+}
+div.wpcf7 input:focus, div.wpcf7 .wpcf7 textarea:focus {
+  border: 1px solid #009de1;
+}
+div.wpcf7 .wpcf7-captchac {
+  border: 1px solid #ccc;
+}
+div.wpcf7 .wpcf7-not-valid {
+  background: #ffb6c1;
+}
+div.wpcf7 span.wpcf7-not-valid-tip {
+  margin: 10px 0 0;
+  padding: 8px 35px 8px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+div.wpcf7 .wpcf7-validation-errors {
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid #eed3d7;
+}
+div.wpcf7 .wpcf7-mail-sent-ok {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+}
+div.wpcf7 .required {
+  color: #f00;
+}
+div.wpcf7 .any {
+  color: #080;
+}
+
+/*# sourceMappingURL=contact.css.map */
