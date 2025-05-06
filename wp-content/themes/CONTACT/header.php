@@ -1,10 +1,12 @@
 <?php
+
 /**
  * The header for our theme
  */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="description" content="<?php bloginfo('description'); ?>">
@@ -13,12 +15,15 @@
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="your-google-site-verification-code" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destyle.css">
+    <link rel="stylesheet" href="style.css">
     <title>
         <?php bloginfo('name'); ?>
     </title>
 
     <?php wp_head(); ?>
 </head>
+
 <body <?php body_class(); ?>>
     <header class="site-header">
         <div class="header-container">
@@ -40,4 +45,4 @@
         </div>
     </header>
     <?php
-?>
+    ?>
